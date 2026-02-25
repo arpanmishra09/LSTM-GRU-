@@ -1,6 +1,7 @@
 # Shakespeare Next Word Prediction
 
 ### End-to-End Deep Learning NLP Project (LSTM vs GRU) + Streamlit Deployment
+streamlit link: https://dtsuzyybmse4j4af3fzwaf.streamlit.app/
 
 This project builds and deploys deep learning language models to perform **next-word prediction** using *Shakespeare’s Hamlet* from the NLTK Gutenberg corpus.
 
