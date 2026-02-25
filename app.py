@@ -26,10 +26,11 @@ def predict_next_word(model,tokenizer,text,max_sequence_len):
 
 
 #Streamlit app
-st.title("NEXT WORD PREDICTION WITH LSTM")
+st.title("NEXT WORD PREDICTION WITH GRU")
 input_text=st.text_input("Enter the sequence of words","enter the sequence")
 if st.button("Predict Next Word"):
     max_sequence_len=model.input_shape[1]+1
     next_word=predict_next_word(model,tokenizer,input_text,max_sequence_len)
     st.write(f'Next word: {next_word}')
+
 
