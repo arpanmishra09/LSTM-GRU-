@@ -168,6 +168,3 @@ It showcases both **theoretical understanding and practical implementation** of 
 * Top-k sampling
 * Transformer-based comparison (GPT-style)
 * Attention mechanisms
-
-Tell me your target role and I’ll optimize it.
-
